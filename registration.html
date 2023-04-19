@@ -3,4 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet
+    <link rel="stylesheet" href="styles.css">
+    <title>ByteWise Education - Registration</title>
+</head>
+<body>
+    <header>
+        <h1>ByteWise Education</h1>
+    </header>
+    <main>
+        <section class="registration">
+            <h2>Register for ByteWise Education</h2>
+            <form id="registration-form" action="#" method="POST">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                
+                <label for="subscription">Subscription Plan:</label>
+                <select id="subscription" name="subscription" required>
+                    <option value="" disabled selected>Select a plan</option>
+                    <option value="basic">Basic</option>
+                    <option value="premium">Premium</option>
+                    <option value="enterprise">Enterprise</option>
+                </select>
+                
+                <input type="submit" value="Register" id="register-btn">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; ByteWise Education. All rights reserved.</p>
+    </footer>
+</body>
+</html>
