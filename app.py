@@ -21,7 +21,9 @@ def register():
         return redirect('/registration-success')
 
     return render_template_string(open('registration.html').read())
-
+@app.route('/byteindex2')
+def test_page():
+    
 @app.route('/registration-success')
 def registration_success():
     return 'Registration successful!'
