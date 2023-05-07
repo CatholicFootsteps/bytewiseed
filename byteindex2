@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ByteWise Education - Empowering Educators, Enabling Students</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Programs</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <h1>Transforming Education Through Technology</h1>
+      <p>ByteWise Education is an AI-powered startup that helps K-12 teachers integrate technology topics and tools into their core subject curriculum. Our comprehensive training, resources, and support empower teachers to deliver engaging and effective lessons, while ensuring that students are better prepared for the digital world.</p>
+      <a href="#" class="cta-btn">Join Now</a>
+    </section>
+    <section id="programs">
+      <h2>Our Programs</h2>
+      <ul>
+        <li>STEM Integration</li>
+        <li>Coding for Kids</li>
+        <li>Digital Literacy</li>
+        <li>AI and Machine Learning</li>
+      </ul>
+      <a href="#" class="cta-btn">Learn More</a>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>At ByteWise Education, we believe that every student deserves a quality education that prepares them for the digital world. That's why we're committed to empowering educators with the knowledge, skills, and resources they need to integrate technology into their curriculum.</p>
+      <a href="#" class="cta-btn">Meet Our Team</a>
+    </section>
+    <section id="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial">
+        <p>"ByteWise Education has been a game-changer for our school. Our teachers feel more confident teaching technology skills, and our students are more engaged than ever before."</p>
+        <p class="author">- John Smith, Principal</p>
+      </div>
+      <div class="testimonial">
+        <p>"I love how ByteWise Education makes learning technology skills fun and accessible for all students. My kids are excited to learn, and I'm impressed with their progress."</p>
+        <p class="author">- Jane Doe, Parent</p>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright © 2023 ByteWise Education</p>
+    </footer>
+  </body>
+</html>
+
